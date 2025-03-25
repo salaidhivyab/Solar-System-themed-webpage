@@ -1,0 +1,67 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: url(bgimage.jpg);
+    background-size: cover;
+}
+
+h3{
+    padding-left: 50px;
+    color: white;
+    background-color: transparent;
+}
+
+#link{
+    text-decoration: none;
+}
+
+h3:hover{
+    text-shadow: 0 1px 1px pink;
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    align-items: center;
+    row-gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-body{
+    background-color: transparent;
+}
+.card-title{
+    color: white;
+    background-color: transparent;
+}
+
+.card-text{
+    color: white;
+    background-color: transparent;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #fafaff12;
+    transition: 0.2s;
+    height: 500px;
+}
+
+.card:hover{
+    box-shadow: 6px 6px 10px rgba(255, 255, 255, 0.6);
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
+.card a{
+    position: absolute;
+    bottom: 28px;
+}
